@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL Product - BLUESTONE | E-commerce Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./phone.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./images/Logo-white.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItem">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="http://">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="./images/cart.png" alt="cart" width="30px" height="30px">
+            <img src="./images/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>  
+    
+
+<!-- -----------------===========Account card=======--------------------------------- -->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="./images/Adidas-Soccer-Wallpaper.jpg" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                       <span onclick="login()">Login</span>
+                       <span onclick="Signup()">Sign Up</span>
+                       <hr id="idicator">
+                    </div>
+                    <form id="Logininform">
+                        <input type="text" placeholder="User name">
+                        <input type="password" placeholder="Passward">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot Passward</a>
+                    </form>
+                    <form id="Signupinform">
+                        <input type="text" placeholder="User name">
+                        <input type="email" placeholder="Enter your email">
+                        <input type="password" placeholder="Passward">
+                        <button type="submit" class="btn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- -----------------====Footer===-------------------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios Mobile Phone</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" alt="1">
+                        <img src="/images/app-store.png" alt="2">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/Logo-white.png" alt="">
+                    <p>Our purpose is to Sustainably make the pleasure<br>and benifits of sport accesssible to ma</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>UseFull Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 all right reserved</p>
+        </div>
+    </div>
+    <!-- ---------------====Js for Toggle menu====--------------- -->
+    <script>
+        var MenuItem = document.getElementById("MenuItem");
+        MenuItem.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItem.style.maxHeight == "0px") {
+                MenuItem.style.maxHeight = "200px";
+            }
+            else {
+                MenuItem.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+<!-- ---------------====Js for Toggle form====--------------- -->
+<script>
+    var Logininform = document.getElementById("Logininform");
+    var signupinform = document.getElementById("Signupinform");  
+    var indicator = document.getElementById("indicator");
+    function  Signup(){
+        Signupinform.style.transform ="translateX(0px)"
+        Logininform.style.transform ="translateX(0px)"
+        idicator.style.transform ="translateX(100px)"
+    }
+    function login() {
+    Signupinform.style.transform ="translateX(300px)"
+    Logininform.style.transform ="translateX(300px)"
+    idicator.style.transform ="translateX(0px)"
+}
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
